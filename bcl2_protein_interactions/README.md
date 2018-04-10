@@ -1,4 +1,4 @@
-# Identification of the BH3-containing interaction partners
+# Identification of BCL-2 interaction partners containing the BH-3 motif
 
 We exploited the [Integrated Interactions Database (IID)](http://iid.ophid.utoronto.ca/iid/About/) of tissue – and organism specific interactions to retrieve known interactions partners of the globular Bcl-2 family members. Subsequently we filtered the interaction partners to retain only those encompassing the BH3 motif. Finally we extracted region(s) of the protein sequences matching the BH3 motif. The interaction partners encompassing the BH3 motif we used as candidate genes in the downstream analysis.
 
@@ -23,12 +23,6 @@ To download the database file used by ```extract_interaction_IID.py``` see [Data
 The database was downloaded 6 February 2018 - version 2017-04 (latest)
 
 ### Running the analysis
-
-The scripts, database file and list of BCL2 genes can be downloaded from Github (add).
-
-```
-clone github
-```
 	
 *To run ```extract_interaction_IID.py```:*
 
@@ -54,7 +48,7 @@ optional arguments:
 ```
 
 ```
-$ cd bcl2_protein_interactions/
+$ cd bcl2_bh3_breast_cancer/bcl2_protein_interactions/
 $ chmod +x extract_interaction_IID.py
 $ ./extract_interaction_IID.py data/BCL2.queries.txt data/PPIs.txt output/bcl2.interactions.txt output/candidate.genes.txt output/candidate.genes.faa 
 ```
@@ -75,18 +69,9 @@ optional arguments:
 
 
 ```
-$ cd bcl2_protein_interactions/
+$ cd bcl2_bh3_breast_cancer/bcl2_protein_interactions/
 $ chmod +x find_bh3.py 
 $ ./find_bh3.py output/candidate.genes.faa output/bh3.motif.candidate.genes.txt
 ```
 
-
-## Author(s)
-
-Simon Kønig
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 

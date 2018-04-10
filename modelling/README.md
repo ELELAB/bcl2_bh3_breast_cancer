@@ -30,27 +30,10 @@ We computed 10 models for each alignments. To infer reliability of the models we
 MODELLER is available free of charge to academic non-profit institutions; you will, however, need to register for a license in order to use the software. See [Download and Installation](https://salilab.org/modeller/download_installation.html).
 
 ### Running the analysis
-
-The alligned complexes and script needed to run and understand the analysis can be retrieved at Github (add).
-
-*The analysis is executed like:*
-
 ```
-clone github
-
-$ cd modelling/
-$ cd output/
+$ cd bcl2_bh3_breast_cancer/modelling/output/
 $ chmod +x run_models.sh
 $ ./run_models.sh
-
 ```
-
-## Author(s)
-
-Simon Kønig
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 

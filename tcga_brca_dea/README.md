@@ -52,15 +52,8 @@ ggbiplot
 
 ### Running the analysis
 
-Retrieve data and scripts from GitHub
 ```
-$ git clone https://github.com/ELELAB/tcga_brca_dea.git
-``` 
-
-*The analysis is executed like:*
-
-```
-$ cd tcga_brca_dea/
+$ cd bcl2_bh3_breast_cancer/tcga_brca_dea/
 $ chmod +x analysis.R
 $ nohup ./analysis.R &
 ```
@@ -120,20 +113,6 @@ tcga_brca_dea/
 
 4 directories, 45 files
 ```
-
-
-
-## Author(s)
-
-Simon Kønig
-
-## Acknowledgement
-
-Thilde Terkelsen
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Session info
 

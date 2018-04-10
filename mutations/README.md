@@ -1,4 +1,4 @@
-# Mutations
+# Retrieval of known mutations
 
 We retrieved known cancer mutations in the genes [BCL2A1](http://www.uniprot.org/uniprot/Q16548), [BBC3](http://www.uniprot.org/uniprot/Q9BXH1), [HRK](http://www.uniprot.org/uniprot/O00198) and [GZMB](http://www.uniprot.org/uniprot/P10144), encoding respectively Bcl-2-related protein A1, Bcl-2-binding component 3, Activator of apoptosis harakiri and Granzyme B.
 The mutations were retrieved from [cBioPortal for Cancer Genomics](http://www.cbioportal.org) and [COSMIC, the Catalogue Of Somatic Mutations In Cancer](http://cancer.sanger.ac.uk/cosmic).
@@ -45,17 +45,10 @@ $ sftp> get /files/grch38/cosmic/v84/CosmicMutantExport.tsv.gz
 
 ### Running the analysis
 
-The two scripts, retrieving mutations can be downloaded from Github (add).
-
-```
-clone github
-```
-
-
 *```retrieve_mutations_cbio.R``` is executed like:*
 
 ```
-$ cd mutations/
+$ cd bcl2_bh3_breast_cancer/mutations/
 $ chmod +x retrieve_mutations_cbio.R
 $ ./retrieve_mutations_cbio.R genes_of_int.txt
 
@@ -86,19 +79,10 @@ optional arguments:
 ```
 
 ```
-$ cd mutations/
+$ cd bcl2_bh3_breast_cancer/mutations/
 $ chmod +x retrieve_mutations_cosmic.py
 $ ./retrieve_mutations_cosmic.py /data/databases/cosmic-v84/ breast genes_of_int.txt mutations_cosmic.csv
 ```
-
-## Author(s)
-
-Simon Kønig
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## R session info
 
