@@ -1,0 +1,9 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+!README.md
+!retrieve_mutations_cosmic.py
+!retrieve_mutations_cbio.R
+!get_mutations.sh
+!genes_of_int.txt
