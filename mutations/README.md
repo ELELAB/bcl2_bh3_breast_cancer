@@ -1,6 +1,6 @@
 # Mutations
 
-We retrieved known mutations in the genes [BCL2A1](http://www.uniprot.org/uniprot/Q16548), [BBC3](http://www.uniprot.org/uniprot/Q9BXH1), [HRK](http://www.uniprot.org/uniprot/O00198) and [GZMB](http://www.uniprot.org/uniprot/P10144), encoding respectively Bfl1 (Bcl-2-related protein A1), Puma (Bcl-2-binding component 3), HRK (Activator of apoptosis harakiri) and Grab (Granzyme B). (change names !!)
+We retrieved known cancer mutations in the genes [BCL2A1](http://www.uniprot.org/uniprot/Q16548), [BBC3](http://www.uniprot.org/uniprot/Q9BXH1), [HRK](http://www.uniprot.org/uniprot/O00198) and [GZMB](http://www.uniprot.org/uniprot/P10144), encoding respectively Bcl-2-related protein A1, Bcl-2-binding component 3, Activator of apoptosis harakiri and Granzyme B.
 The mutations were retrieved from [cBioPortal for Cancer Genomics](http://www.cbioportal.org) and [COSMIC, the Catalogue Of Somatic Mutations In Cancer](http://cancer.sanger.ac.uk/cosmic).
 
 To accomplish this in-house scripts were produced, querying the cBioPortal and Cosmic databases. 
