@@ -5,9 +5,9 @@ This is repository encompassing the data and analysis applied in this study.
 The study was conducted accordingly:
 
 1. [Identification of BCL-2 interaction partners containing the BH-3 motif](bcl2_protein_interactions/)
-2. [Differential expression analyses of the Cancer Genome Atlas (TCGA) RNASeq BRCA dataset](tcga_brca_dea/README.md)
-3. [Retrieval of mutations mapping our genes of interest](mutations/README.md)
-4. [Homology modelling of protein-peptide interactions](modelling/README.md)
+2. [Differential expression analyses of the Cancer Genome Atlas (TCGA) RNASeq BRCA dataset](tcga_brca_dea/)
+3. [Retrieval of mutations mapping our genes of interest](mutations/)
+4. [Homology modelling of protein-peptide interactions](modelling/)
 5. [Structure-Based Prediction of the Functional Impact of BH3 Mutations](add)
 
 ## To reproduce this analysis
