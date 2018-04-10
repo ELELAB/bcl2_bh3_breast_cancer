@@ -1,0 +1,8 @@
+# Ignore everything in this directory
+5uulpuma_bcl2a1hrk_1.ali
+gzmb_bh3_motif.txt
+hrk_bh3_motif.txt
+pcna_bh3_motif.txt
+# Except this file
+!.gitignore
+
