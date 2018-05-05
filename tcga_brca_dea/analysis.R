@@ -4,7 +4,7 @@ start_time <- Sys.time()
 source('src/functions.R')
 #source('src/download_data.R') uncomment to allow of downloading data in pipeline
 
-#### TASK 2. Analyses of the Cancer Genome Atlas (TCGA) RNASeq BRCA dataset - pam50 molecular subtype ####
+#### Analyses of the Cancer Genome Atlas (TCGA) RNASeq BRCA dataset  ####
 
 # Install and load packages if not installed. Othwewise load.
 source('https://bioconductor.org/biocLite.R')
@@ -340,14 +340,6 @@ write.xlsx(deg_all, file = 'output/DE.all.xlsx', rowNames = TRUE)
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 source('src/results_plot.R')
-
-# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#### RETRIEVE MUTATION FROM CBIOPORTAL FOR THE ANTI-APOPTOTIC BCL2 MEMBERS ####
-# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-source('src/retrieve_mutations.R')
-
-
-
 
 end_time <- Sys.time()
 
