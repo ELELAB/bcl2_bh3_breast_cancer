@@ -12,7 +12,7 @@ The [TCGA-BRCA](https://portal.gdc.cancer.gov/projects/TCGA-BRCA) dataset used i
 3. Explore the data visually - allow exploration of unwanted noise and hidden artifacts such as batch effects.
 4. Differential expression analysis
 5. Export and plot differently expressed candidate genes
-6. Retrieve mutations for anti-apoptotic BCL2 members
+6. Gene co-expression network analysis of the candidate genes
 
 ## To reproduce this analysis
 
@@ -109,7 +109,7 @@ tcga_brca_dea/
     ├── expl_plots.R
     ├── functions.R
     ├── results_plot.R
-    └── retrieve_mutations.R
+  
 
 4 directories, 45 files
 ```
