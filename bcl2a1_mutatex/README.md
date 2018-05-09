@@ -6,7 +6,7 @@ Using the in-house Python-based software, MutateX, developed for high-throughput
 
 ### Prerequisites
 
-MutateX and the associated scripts are written in Python, and requires having a working Python 2.x (x >= 7) installation. A number of Python packages needs also to be available. More in details, mutateX requires:
+MutateX and the associated scripts are written in Python, and requires having a working Python 2.7 installation. Alternatively with a Python 2.x (x >= 7) installation, the bash run sricpts must be corrected, i.e., [run_mutatex_OK.sh](complexes/computational/hrk_2/run_mutatex_OK.sh). A number of Python packages needs also to be available. More in details, mutateX requires:
 
 ```
 BioPython
