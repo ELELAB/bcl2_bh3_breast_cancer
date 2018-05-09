@@ -1,6 +1,6 @@
 # A ‘multiscale’ assessment of the molecular mechanisms related to the pro-survival Bcl-2 proteins in breast cancer
 
-This is repository encompassing the data and analysis applied in this study.
+This repository encompasses the data and analysis applied in this study.
 
 The study was conducted accordingly:
 
