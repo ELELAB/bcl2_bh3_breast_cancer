@@ -8,7 +8,7 @@ The study was conducted accordingly:
 2. [Differential expression analyses of the Cancer Genome Atlas (TCGA) RNASeq BRCA dataset](tcga_brca_dea/)
 3. [Retrieval of mutations mapping our genes of interest](mutations/)
 4. [Homology modelling of protein-peptide interactions](modelling/)
-5. [Structure-Based Prediction of the Functional Impact of BH3 Mutations](add)
+5. [Structure-Based Prediction of the Functional Impact of Mutations](bcl2a1_mutatex/)
 
 ## To reproduce this analysis
 
