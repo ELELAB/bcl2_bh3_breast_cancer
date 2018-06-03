@@ -4,5 +4,5 @@
 !.gitignore
 !run_figs.sh
 !ddg2matrix
-!ddg2distribution               
+!ddg2distribution
 !ddg2pdb
