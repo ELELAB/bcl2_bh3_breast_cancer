@@ -14,7 +14,7 @@ numpy
 matplotlib
 ```
 
-In addition MutateX works by running the FoldX software. The FoldX binary and the associated rotabase.txt file should be available. FoldX4 is available free of charge to academic affiliates; you will, however, need to register and login to download. See [FOLDX ACADEMIC LICENSE](http://foldxsuite.crg.eu/academic-license-info). The FoldX binary file should be readable and executable by the user who intends to run MutateX, and its location as well as that of the rotabase.txt file should be known.
+In addition MutateX works by running the FoldX software. The FoldX binary and the associated rotabase.txt file should be available. FoldX4 is available free of charge to academic affiliates; you will, however, need to register and login to download. See [FOLDX ACADEMIC LICENSE](http://foldxsuite.crg.eu/academic-license-info). The FoldX binary file should be readable and executable by the user who intends to run MutateX, and its location as well as that of the rotabase.txt file should be specied as system variables in profile or .bashrc.
 
 ### Installation
 
