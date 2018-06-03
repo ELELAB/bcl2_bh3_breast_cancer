@@ -1,0 +1,8 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+!run_figs.sh
+!ddg2matrix
+!ddg2topmuts_26_10-2016_modified
+!ddg2xlsx
