@@ -138,7 +138,7 @@ source('src/expl_plots.R')
 
 # Create design matrix 
 
-design_matrix <- model.matrix(~0 + condition + tss + year)
+design_matrix <- model.matrix(~0 + condition + tss)
 
 colnames(design_matrix)[1:2] <- c('cancer', 'normal')
 
