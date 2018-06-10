@@ -1,6 +1,6 @@
 # Retrieval of known mutations
 
-We retrieved known cancer mutations in the genes [BCL2A1](http://www.uniprot.org/uniprot/Q16548), [BBC3](http://www.uniprot.org/uniprot/Q9BXH1), [HRK](http://www.uniprot.org/uniprot/O00198) and [GZMB](http://www.uniprot.org/uniprot/P10144), encoding respectively Bcl-2-related protein A1, Bcl-2-binding component 3, Activator of apoptosis harakiri and Granzyme B.
+We retrieved known cancer mutations in the genes [BCL2A1](http://www.uniprot.org/uniprot/Q16548), [HRK](http://www.uniprot.org/uniprot/O00198), [GZMB](http://www.uniprot.org/uniprot/P10144), and [PCNA](http://www.uniprot.org/uniprot/P12004) encoding respectively Bcl-2-related protein A1, Activator of apoptosis harakiri, Granzyme B and Proliferating cell nuclear antigen.
 The mutations were retrieved from [cBioPortal for Cancer Genomics](http://www.cbioportal.org) and [COSMIC, the Catalogue Of Somatic Mutations In Cancer](http://cancer.sanger.ac.uk/cosmic).
 
 To accomplish this in-house scripts were produced, querying the cBioPortal and Cosmic databases. 
