@@ -56,7 +56,7 @@ $ ./retrieve_mutations_cbio.R genes_of_int.txt
 The cBioportal mutation data were retrieved 9-APRIL-18 from cBioPortal Version 1.12.1-SNAPSHOT
 
 * genes_of_int.txt is a text file emcompassing the genes (one for each line) for which to retrieve mutations.
-* The script is coded to retrieve mutation in breast cancer studies. For other tissue studies the code must be manually altered. 
+* The script is coded to retrieve mutation in breast cancer studies. For other tissue studies the code must be altered to the studies of interest. Moreover, the identifiers for the studies chance once in a while and as such the identifiers in the code might need corrections. 
 
 *```retrieve_mutations_cosmic.py``` is executed like:*
 
