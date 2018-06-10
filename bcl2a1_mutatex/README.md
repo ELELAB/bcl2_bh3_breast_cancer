@@ -29,6 +29,11 @@ Please refer to the [MutateX manual](https://github.com/ELELAB/mutatex/blob/mast
 
 For clarification of how MutateX runs, the specified command line options and the outputs please see above mentioned manual.
 
+If you have a multi-core machine (as you most probably have) you can greatly shorten the calculation times by allowing MutateX to run more than one instance of FoldX at the same time, using option –np, which specifies the number of cores to be used at the same time
+
+
+#### Saturation scan of complexes
+
 ```
 $ cd bcl2a1_mutatex/complexes/computational/hrk_2/
 $ chmod +x run_mutatex_OK.sh
@@ -58,6 +63,15 @@ $ run_figs.sh
 
 ```
 $ cd bcl2a1_mutatex/complexes/computational/pcna/
+$ chmod +x run_mutatex_OK.sh
+$ ./run_mutatex_OK.sh
+
+$ cd figs/
+$ run_figs.sh
+```
+#### Saturation scan of free-state protein
+```
+$ cd bcl2a1_mutatex/free_state/bcl2a1/
 $ chmod +x run_mutatex_OK.sh
 $ ./run_mutatex_OK.sh
 
