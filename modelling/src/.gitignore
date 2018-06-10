@@ -5,4 +5,7 @@ model_restraint_gzmb.log
 model_restraint_pcna.log
 # Except this file
 !.gitignore
-!model_restraint*.py
+!model_restraint_hrk2.py
+!model_restraint_hrk3.py
+!model_restraint_gzmb.py
+!model_restraint_pcna.py
