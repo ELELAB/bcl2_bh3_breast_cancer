@@ -1,8 +1,5 @@
 # Ignore
-model_restraint_hrk2.log
-model_restraint_hrk3.log
-model_restraint_gzmb.log
-model_restraint_pcna.log
+*
 # Except this file
 !.gitignore
 !model_restraint_hrk2.py
