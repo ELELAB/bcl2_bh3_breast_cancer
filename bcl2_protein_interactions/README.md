@@ -1,6 +1,6 @@
 # Identification of BCL-2 interaction partners containing the BH-3 motif
 
-We exploited the [Integrated Interactions Database (IID)](http://iid.ophid.utoronto.ca/iid/About/) of tissue – and organism specific interactions to retrieve known interactions partners of the globular Bcl-2 family members. Subsequently we filtered the interaction partners to retain only those encompassing the BH3 motif. Finally we extracted region(s) of the protein sequences matching the BH3 motif. The interaction partners encompassing the BH3 motif we used as candidate genes in the downstream analysis.
+We exploited the [Integrated Interactions Database](http://iid.ophid.utoronto.ca/iid/About/) of tissue – and organism specific interactions to retrieve known interactions partners of the globular Bcl-2 family members. Subsequently we filtered the interaction partners to retain only those encompassing the BH3 motif. Finally we extracted region(s) of the protein sequences matching the BH3 motif. The interaction partners encompassing the BH3 motif we used as candidate genes in the downstream analysis.
 
 ## To retrieve protein-protein interaction (PPI) partners
 
