@@ -9,15 +9,18 @@ To model protein-peptide interaction we applied comparative modelling by satisfa
 We restrained the CA-CA distance of our model to 7 (st.dev.=0.1) angstroms between Val74 in chain A (Bcl2a1) and the highly concerved Leu in the BH3 motif in chain B (Hrk). Val74 is located in the hydrophopic groove acting as the interaction site on the template complex.
 
 
-**Modelling Hrk**
+## Modelling Hrk
+
 As a template structure we used the protein sequence of [Bcl2a1: Bcl-2-related protein A1](http://www.uniprot.org/uniprot/Q16548) in complex with the BH3 motif of [Puma: Bcl-2-binding component 3](http://www.uniprot.org/uniprot/Q9BXH1), experimentally derrived from X-RAY DIFFRACTION [PDB 5uul](https://www.rcsb.org/structure/5uul).
 This complex was alligned to the target sequence complex between Bcl2a1 and the predicted BH3 regions from the [Hrk: Activator of apoptosis harakiri](http://www.uniprot.org/uniprot/O00198) (extended to correspond to the length of the Puma BH3 region in the template).
 
-**Modelling Gzmb**
+## Modelling Gzmb
+
 As a template structure we used the above mentioned complex (5uul).
 This complex was alligned to the target sequence complex between Bcl2a1 and the predicted BH3 region from [Gzmb: Granzyme B](http://www.uniprot.org/uniprot/P10144) (extended to correspond to the length of the Puma BH3 region in the template).
 
-**Modelling Pcna**
+## Modelling Pcna
+
 As a template structure we used the above mentioned complex (5uul).
 This complex was alligned to the target sequence complex between Bcl2a1 and the predicted BH3 region from [Pcna: Proliferating cell nuclear antigen](http://www.uniprot.org/uniprot/P12004) (extended to correspond to the length of the Puma BH3 region in the template).
 
