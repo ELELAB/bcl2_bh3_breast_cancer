@@ -27,7 +27,7 @@ Please refer to the [MutateX manual](https://github.com/ELELAB/mutatex/blob/mast
 
 ### Running the analysis
 
-For clarification of how MutateX runs, the specified command line options and the outputs please see above mentioned manual.
+Before running this analysis we urge the user to read the parts of the manual clarifying how MutateX runs, the specified command line options and the outputs please see above mentioned manual. Specially the user should consider the number of cores they have available and possible change the number of cores in run_mutatex_OK.sh scripts.
 
 If you have a multi-core machine (as you most probably have) you can greatly shorten the calculation times by allowing MutateX to run more than one instance of FoldX at the same time, using option –np, which specifies the number of cores to be used at the same time
 
